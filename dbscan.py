@@ -8,8 +8,7 @@ use this code however you like.
 import numpy as np
 import math
 
-class dbscan():
-    
+class dbscan():    
     def __init__(self, eps=0.5, min_points=5):
         self.eps = eps
         self.min_points = min_points
@@ -26,7 +25,6 @@ class dbscan():
         labels = [self.unclassified] * n_points
 
         for index in range(0, n_points):
-            point = X[:, index]
             if labels[index] == self.unclassified:
                 if self.grow_cluster(X, index, labels, cluster):
                     cluster = cluster + 1

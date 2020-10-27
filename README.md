@@ -1,2 +1,6 @@
 # CS-BW-1-dbscan
-simple implementation of dbscan clustering
+Simple Implementation of DBSCAN Clustering for learning purposes
+
+A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise
+
+
